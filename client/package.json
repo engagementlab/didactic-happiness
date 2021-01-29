@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
+    "qa": "rollup -c --environment QA",
     "dev": "rollup -c -w",
-    "start": "sirv public --cors --single"
+    "start": "sirv public --cors --single --host"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.1.0",
